@@ -17,7 +17,7 @@ export default function AllPages(props) {
       onLoadSuccess={onDocumentLoadSuccess}
     >
       {Array.from(new Array(numPages), (el, index) => (
-        <Page key={`page_${index + 1}`} pageNumber={index + 1} />
+        <Page key={`page_${index + 1}`} pageNumber={index + 1} scale={2.0}/>
       ))}
     </Document>
   );
