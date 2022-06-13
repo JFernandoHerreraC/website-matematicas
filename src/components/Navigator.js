@@ -1,4 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import './Navigator.css';
+
 export default class Navigator extends Component {
   render() {
     return (
@@ -12,13 +14,13 @@ export default class Navigator extends Component {
             <div className="collapse navbar-collapse ml-auto" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="/">Inicio</a>
+                  <a className="nav-link active efectHover1"efec aria-current="page" href="/">Inicio</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/description">Descripción</a>
+                  <a className="nav-link efectHover2" href="/description">Descripción</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/example">Ejemplos</a>
+                  <a className="nav-link efectHover3" href="/example">Ejemplos</a>
                 </li>
               </ul>
             </div>
