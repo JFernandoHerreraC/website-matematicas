@@ -9,7 +9,7 @@ export default class Example extends Component {
             <div className="mt-5">
                 <div className="card">
                     <div className="card-body">
-                        <h1 className="text-center">Ejemplos</h1>
+                        <h1 className="text-center animate__animated animate__slideInUp">Ejemplos</h1>
                         <div className="text-center">
                             <AllPagesPDFViewer pdf={Pdf} />
                         </div>

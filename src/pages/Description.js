@@ -7,7 +7,7 @@ export default class Description extends Component {
       <div className="mt-5">
         <div className="card">
           <div className="card-body">
-            <h1 className="text-center">Description</h1>
+            <h1 className="text-center  animate__animated animate__slideInLeft">Description</h1>
             <p className="text-center">Proposición: Sean </p>
             <blockquote className="blockquote">
               <p className="mb-0 text-center">$P(x,y)$ y $Q(x,y)$</p>
