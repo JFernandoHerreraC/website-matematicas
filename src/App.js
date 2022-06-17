@@ -20,6 +20,7 @@ function App() {
             <Route exact path="*" element={<NotFound />} />
           </Routes>
         </Router>
+        <p className="text-center p-2">Designed by JFernandoHerreraC</p> 
       </div>
     </div>
   );

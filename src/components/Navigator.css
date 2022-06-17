@@ -1,7 +1,7 @@
 .efectHover1:hover {
     background-image: url('../assets/img/matematicas-tumblr-gif-10.gif');
     opacity: 80%;
-    color: white;
+    color: white !important;
     border-radius: 5px;
 }
 
@@ -9,7 +9,7 @@
     background-image: url('../assets/img/andy-davidson-andy.gif');
     background-size: 120px 75px;
     background-repeat: no-repeat;
-    color: white;
+    color: white !important;
     border-radius: 5px;
 }
 
@@ -17,6 +17,6 @@
     background-image: url('../assets/img/explode-boom.gif');
     background-size: 120px 50px;
     background-repeat: no-repeat;
-    color: white;
+    color: white !important;
     border-radius: 5px;
 }
